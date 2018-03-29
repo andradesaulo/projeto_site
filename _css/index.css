@@ -1,0 +1,39 @@
+#cabecalho {
+	background-color: #101628ff;
+	color: #fff;
+}
+
+#cabecalho hgroup h1 {
+	display: inline-block;
+}
+
+#cabecalho hgroup h2 {
+	display: inline-block;
+}
+
+hgroup {
+	display: inline-block;
+	padding: 20px;
+}
+
+body {
+	background-color: #fe533dff;
+	font-family: 'Roboto Slab', serif;
+}
+
+#menu-principal {
+	display: inline-block;
+}
+
+#interface {
+	width: 900px;
+	height: 1000px;
+	margin: 0px auto 0px auto;
+	background-color: #fff;
+}
+
+
+#menu-principal li {
+	display: inline-block;
+	padding: 20px;
+}
