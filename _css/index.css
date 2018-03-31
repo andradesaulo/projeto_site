@@ -3,17 +3,17 @@
 	color: #fff;
 }
 
+hgroup {
+	display: inline-block;
+	padding: 20px;
+}
+
 #cabecalho hgroup h1 {
 	display: inline-block;
 }
 
 #cabecalho hgroup h2 {
 	display: inline-block;
-}
-
-hgroup {
-	display: inline-block;
-	padding: 20px;
 }
 
 body {
@@ -25,15 +25,15 @@ body {
 	display: inline-block;
 }
 
+
+#menu-principal li {
+	display: inline-block;
+	padding: 20px;
+}
+
 #interface {
 	width: 900px;
 	height: 1000px;
 	margin: 0px auto 0px auto;
 	background-color: #fff;
-}
-
-
-#menu-principal li {
-	display: inline-block;
-	padding: 20px;
 }
