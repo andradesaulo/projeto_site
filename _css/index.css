@@ -17,7 +17,7 @@ hgroup {
 }
 
 body {
-	background-color: #fe533dff;
+	background-color: #a8acb7ff;
 	font-family: 'Roboto Slab', serif;
 }
 
@@ -32,8 +32,34 @@ body {
 }
 
 #interface {
-	width: 900px;
-	height: 1000px;
-	margin: 0px auto 0px auto;
-	background-color: #fff;
+	background-color: #e2e2ebff;
 }
+
+#transparencia {
+    width: 1000px;
+    height: 536px;
+    background-color: white;
+    opacity: .5;
+    position: absolute;
+	left: 10%;
+    z-index: 1;
+}
+
+
+#foto-empresa {
+	background: url("../_imagens/notbook-tabela.jpg");
+	background-position: 0% 0%;
+    background-size: 80% auto;
+    width: 100%;
+    height: 536px;
+	background-repeat: no-repeat;
+	margin: 0px 10% 0 10%;
+	color: #fff;
+}
+
+#foto-empresa figcaption{
+	position: relative;
+	z-index: 2;
+}
+
+
