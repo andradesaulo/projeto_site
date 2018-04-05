@@ -40,7 +40,7 @@ body {
 }
 
 #interface {
-	background-color: white;
+	background-color: #455fe114;
 }
 
 #foto-empresa {
@@ -103,4 +103,16 @@ body {
 
 footer {
 	background-color: #e2e2ebff;
+	padding: 20px;
+	box-shadow: 0px 5px 20px 0px #000;
+}
+
+footer p {
+	display: inline-block;
+}
+
+#copyright {
+	float: right;
+	padding: 20px;
+	color: #e14559ff;
 }
