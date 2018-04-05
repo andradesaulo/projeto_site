@@ -38,6 +38,10 @@ body {
 	display: inline-block;
 	padding: 20px;
 }
+#menu-principal a{
+	color: #fff; 
+	text-decoration: none;
+}
 
 #interface {
 	background-color: #455fe114;
@@ -115,4 +119,16 @@ footer p {
 	float: right;
 	padding: 20px;
 	color: #e14559ff;
+}
+#nome{
+	margin: 10px;
+}
+#email{
+	margin: 10px;
+}
+#mensagem{
+	margin: 10px;
+}
+.campo{
+	margin-left: 20px;
 }
