@@ -132,3 +132,19 @@ footer p {
 .campo{
 	margin-left: 20px;
 }
+
+form {
+	margin-left: 10%
+}
+
+form label{
+	width: 60%;
+	display: block;
+	background-color: black;
+	color: white;
+	padding: 20px;
+}
+
+form label {
+	
+}
