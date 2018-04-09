@@ -36,8 +36,20 @@ body {
 
 #menu-principal li {
 	display: inline-block;
-	padding: 20px;
+	margin: 20px;
+	padding: 0px;
+	background-color: #24252dff;
 }
+
+#menu-principal li:hover {
+	background-color: #e14559ff;
+	border-radius: 10px;
+	margin: 8px;
+	padding: 12px;
+	color: #24252dff;
+	transition: background-color .08s;
+}
+
 #menu-principal a{
 	color: #fff; 
 	text-decoration: none;
