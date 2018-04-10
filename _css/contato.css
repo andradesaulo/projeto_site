@@ -1,0 +1,31 @@
+#contato{
+	width: 500px;
+	margin: auto;
+}
+input:hover{
+	background-color: ;
+}
+
+legend{
+	color: ;
+	font-weight: ;
+	font-size: ;
+	font-family: ;
+
+}
+fieldset{
+	border-bottom-color:;
+	margin:;
+}
+fieldset#sexo {
+	width:;
+}
+fieldset#usuario {
+	background:url("../_imagens/usuario-contato.jpeg") no-repeat;
+}
+fieldset#endereco {
+	background:url("../_imagens/casa.png") no-repeat;
+}
+fieldset#mensagem {
+	background:url("../_imagens/mensagem-imagem.png") no-repeat;
+}
