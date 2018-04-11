@@ -1,0 +1,11 @@
+#empresa h2{
+    font-size: 12pt;
+    color:#606060;
+    background-color: blue;
+    padding: 5px 0px 5px 10px;
+    margin: 5px 0px 5px 10px;
+}
+p {
+    text-align: justify;
+    text-indent: 50px;
+}

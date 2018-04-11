@@ -132,3 +132,9 @@ footer p {
 	padding: 20px;
 	color: #e14559ff;
 }
+#logo-empresa img{
+	position: relative; /* a partir de onde a imagem está */
+	top: -65px; /* sobe a image */
+	right: 150px; /* desloca da esquerda para direita */
+	height: 150px;
+}
