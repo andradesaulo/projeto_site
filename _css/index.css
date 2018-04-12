@@ -1,7 +1,7 @@
 #cabecalho {
 	background-color: #24252dff;
 	color: #fff;
-	height: 100%;
+	height: 60px;
 	font-family: 'Roboto Slab', serif;
 	font-size: 13pt;
 	padding: 15px;
@@ -14,6 +14,7 @@ hgroup {
 
 #cabecalho hgroup h1 {
 	display: inline-block;
+
 
 }
 
@@ -135,6 +136,6 @@ footer p {
 #logo-empresa img{
 	position: relative; /* a partir de onde a imagem está */
 	top: -65px; /* sobe a image */
-	right: 150px; /* desloca da esquerda para direita */
-	height: 150px;
+	/* right: 150px; /* desloca da esquerda para direita */
+	height: 130px;
 }
