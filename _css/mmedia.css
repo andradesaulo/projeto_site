@@ -1,21 +1,23 @@
 #midia{
 	width: 980px;
-	height: 750px;
+	height: 630px;
 	margin: auto;
 }
 #filme{
 	display: block;
-	width: 880px;
-	height: 313px;
+	width: 780px;
+	height: 500px;
 	margin: auto;
 	background:url("../_imagens/televisao.png") no-repeat;
-	background-position: 24% 44%;
+	background-position: 4% 70%;
+	position: center;
 
 }
 #musica {
 	display: block;
-	width: 300px;
-	height: 154px;
+	width: 150px;
+	height: 200px;
+	margin-top: -90px;
 	background:url("../_imagens/som.png") no-repeat;
-	float: right;
-}
+	float: center;
+	margin-left: -180px;
