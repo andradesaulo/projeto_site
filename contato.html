@@ -13,8 +13,9 @@
         <div id="interface">
              <header id="cabecalho"> 
                     <hgroup> 
-                        <h1>Logo</h1>
-                        <h2>Soluções em software</h2>
+                    <figure id="logo-empresa">
+                        <img src="_imagens/logo.png">
+                    </figure>
                     </hgroup>           
                 <nav id="menu-principal">
                     <ul type="square">
@@ -28,7 +29,7 @@
                 </nav>
                 </header>
                 <section>  
-                    <form id="contato" action="servidor.php"> >
+                    <form id="contato" action="servidor.php">
                         <fieldset id="usuario">
                             <legend> Campo para Identificação </legend>
                             <p>
@@ -46,11 +47,10 @@
                             <fieldset id="sexo">
                                 <legend> Sexo </legend>
                                     <input type="radio" id="masculino" name="sexo">
-                                        Masculino
-                                    </input>
+                                    Masculino
                                     <input type="radio" id="feminino" name="sexo">
-                                        Feminino
-                                    </input>
+                                    Feminino
+                                   
                             </fieldset>
                             <p>
                                 <label for="data">
@@ -105,10 +105,9 @@
                             <legend> Mensagem </legend>
                             <p>
                                 <label for="rapido">
-                                    Necessidade de atendimento :
+                                    Necessidade de atendimento :<br>
                                 </label>
-                                Para essa semana <input type="range" min="0" id="rapido" max="10"/>
-                                Sem precisão para agora 
+                                Para essa semana <input type="range" min="0" id="rapido" max="10"/>Sem precisão para agora 
                             </p>
                             <p>
                                 <label for="mensagem"> Mensagem </label>

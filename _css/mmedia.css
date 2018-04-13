@@ -1,0 +1,21 @@
+#midia{
+	width: 980px;
+	height: 750px;
+	margin: auto;
+}
+#filme{
+	display: block;
+	width: 880px;
+	height: 313px;
+	margin: auto;
+	background:url("../_imagens/televisao.png") no-repeat;
+	background-position: 24% 44%;
+
+}
+#musica {
+	display: block;
+	width: 300px;
+	height: 154px;
+	background:url("../_imagens/som.png") no-repeat;
+	float: right;
+}
