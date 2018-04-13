@@ -1,31 +1,35 @@
 #contato{
-	width: 500px;
+	width: 960px;
 	margin: auto;
 }
-input:hover{
-	background-color: ;
+input:hover {
+	background-color: #606060;
 }
 
 legend{
-	color: ;
-	font-weight: ;
-	font-size: ;
-	font-family: ;
+	color: #dc051e ; /*cor da legenda*/
+	font-weight: bold;
+	font-size: 20pt;
+	font-family: Roboto, sans-serif ;
 
 }
 fieldset{
-	border-bottom-color:;
-	margin:;
+	border-bottom-color:red;
+	margin: 10px;
 }
 fieldset#sexo {
-	width:;
+	width:10px;
+	margin-left: 3px;
 }
 fieldset#usuario {
-	background:url("../_imagens/usuario-contato.jpeg") no-repeat;
+	background:url("../_imagens/usuario-contato.jpeg") no-repeat 95% 95%;
 }
 fieldset#endereco {
-	background:url("../_imagens/casa.png") no-repeat;
+	background:url("../_imagens/casa.png") no-repeat 95% 95%;
 }
 fieldset#mensagem {
-	background:url("../_imagens/mensagem-imagem.png") no-repeat;
+	background:url("../_imagens/mensagem-imagem.png") no-repeat 95% 95%;
+}
+#botao{
+	margin-left: 140px;
 }
