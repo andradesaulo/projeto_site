@@ -16,15 +16,35 @@ legend{
 }
 fieldset{
 	border-bottom: 1px solid red;
+
+
+
 }
-#casa{
-	margin: 50px;
+fieldset#sexo {
+
+}
+
+fieldset#usuario {
+	background:url("../_imagens/usuario-contato.jpg") no-repeat ;
+	background-size: 100px;
+	background-position: 35% 5%;
+}
+fieldset#endereco {
+	background:url("../_imagens/casa.1.png") no-repeat;
+	background-size: 120px;
+	background-position: 35% 50%;
+}
+fieldset#mensagem {
+	background:url("../_imagens/mensagem2.jpg") no-repeat ;
+	background-position: 35% 70%;
+	background-size: 130px;
+	
 }
 #botao{
 	margin-left: 140px;
-	width: 80px;
-	height:40px;
-	margin:0px;
+	width: 90px;
+    height: 40px;
+    margin: 0px;
 }
 p {
 	text-indent: 0px;

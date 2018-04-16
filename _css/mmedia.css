@@ -4,14 +4,13 @@
 	margin: auto;
 }
 #filme{
+	width:650px;
+	height: 300px;
 	display: block;
-	width: 780px;
-	height: 500px;
-	margin: auto;
 	background:url("../_imagens/televisao.png") no-repeat;
-	background-position: 4% 70%;
+	background-position: 80% 60%;
+	background-size: 450px;
 	position: center;
-
 }
 #musica {
 	display: block;
