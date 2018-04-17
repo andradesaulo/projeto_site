@@ -1,0 +1,26 @@
+body img#mapa_imagens {
+	float: right;
+	margin-top: 20px;
+}
+footer {
+	clear: both;
+}
+#interface {
+	width: 90%;
+	margin: auto;
+}
+#interface h1 {
+	font-family: "Roboto Slab", serif;
+	font-size: 45pt;
+	margin: 26px 10px 10px 84px;
+	float: left;
+	color: #e14559;
+
+}
+
+#frame_clientes {
+	width: 450px;
+	height: 600px;
+	margin-left: 84px;
+	margin-top: 20px;
+}
