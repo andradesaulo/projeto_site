@@ -30,12 +30,14 @@
 		</header>
 		<div id="interface">
 			<h1>Nossos clientes</h1>
+			<h2>Clique em um estado</h2>
 			<img id="mapa_imagens" src="_imagens/mapa_brasil.png" usemap="#mapa_estados">
 			<map name="mapa_estados">
-				<area shape="poly" coords="401,394,350,382,398,365,415,311,514,339,478,410,413,435" href="clientes_i_frame.html" target="tantofaz"/>
-				<area shape="poly" coords="377,469,362,438,323,424,349,383,400,395,411,437,435,429,435,446,404,457,390,474,377,468" href="clientes_i_frame.html" target="tantofaz"/>
+				<area id="minas_gerais" shape="poly" coords="401,394,350,382,398,365,415,311,514,339,478,410,413,435" href="clientes_minas_gerais.html" target="minas_gerais"/>
+				<area id="sao_paulo" shape="poly" coords="377,469,362,438,323,424,349,383,400,395,411,437,435,429,435,446,404,457,390,474,377,468" href="clientes_sao_paulo.html" target="sao_paulo"/>
 			</map>
-			<iframe id="frame_clientes" src="clientes_i_frame.html" name="tantofaz"></iframe>
+			<iframe id="frame_sao_paulo" class="frame_inativo" src="clientes_sao_paulo.html" name="sao_paulo"></iframe>
+			<iframe id="frame_minas_gerais" class="frame_inativo" src="clientes_minas_gerais.html" name="minas_gerais"></iframe>
 		</div>
 		<footer id="rodape">
 	 <p>Contato<br/>
@@ -48,4 +50,19 @@
 	</footer>
 	</div>
 	</body>
+	<script>
+		document.getElementById("sao_paulo").onclick = function() {
+			document.getElementById("frame_sao_paulo").classList.remove("frame_inativo");
+			document.getElementById("frame_sao_paulo").classList.add("frame_ativo");
+			document.getElementById("frame_minas_gerais").classList.remove("frame_ativo");
+			document.getElementById("frame_minas_gerais").classList.add("frame_inativo");
+		};
+		document.getElementById("minas_gerais").onclick = function() {
+			document.getElementById("frame_minas_gerais").classList.remove("frame_inativo");
+			document.getElementById("frame_minas_gerais").classList.add("frame_ativo");
+			document.getElementById("frame_sao_paulo").classList.remove("frame_ativo");
+			document.getElementById("frame_sao_paulo").classList.add("frame_inativo")
+
+		};
+	</script>
 </html>

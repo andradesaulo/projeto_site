@@ -1,0 +1,15 @@
+body h1 {
+	font-size: 27pt;
+	color: #e14559;
+}
+
+#clientes_mg img {
+	width: 200px;
+}
+#clientes_mg h2 {
+	font-family: "Roboto", sans-serif;
+	font-size: 20pt;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-weight: 300;
+}

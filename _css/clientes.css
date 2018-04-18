@@ -1,26 +1,40 @@
 body img#mapa_imagens {
-	float: right;
+	float: left;
 	margin-top: 20px;
 }
 footer {
 	clear: both;
 }
 #interface {
-	width: 90%;
+	width: 80%;
 	margin: auto;
 }
 #interface h1 {
 	font-family: "Roboto Slab", serif;
 	font-size: 45pt;
-	margin: 26px 10px 10px 84px;
-	float: left;
+	margin: 26px 10px 15px 46px;
 	color: #e14559;
+	clear: both;
 
 }
-
-#frame_clientes {
-	width: 450px;
-	height: 600px;
-	margin-left: 84px;
-	margin-top: 20px;
+#interface h2 {
+	margin-left: 46px;
+	font-size: 18pt;
+	font-weight: 300;
 }
+.frame_ativo{
+	display: inline;
+	width: 420px;
+	height: 820px;
+	margin-left: 49px;
+	margin-top: 0px;
+}
+
+.frame_inativo {
+	display: none;
+}
+
+
+
+
+
