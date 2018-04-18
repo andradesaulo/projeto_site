@@ -2,21 +2,156 @@
 	width: 980px;
 	height: 630px;
 	margin: auto;
+	margin-bottom: 100px;
 }
 #filme{
-	width:650px;
-	height: 300px;
+	float:right;
 	display: block;
-	background:url("../_imagens/televisao.png") no-repeat;
-	background-position: 80% 60%;
-	background-size: 450px;
-	position: center;
+	position:relative;
+	margin-top: 100px;
+	margin-bottom: 40px;
+	margin-right: -30px;
+	background:url("../_imagens/televisao2.png") no-repeat;
+	background-position: 50%/*MEXE OS LADOS*/ 120%; /*MEXE CIMA E BAIXO*/
+	width:540px;
+	height:500px;
 }
 #musica {
+	float:left;
 	display: block;
-	width: 150px;
-	height: 200px;
-	margin-top: -90px;
-	background:url("../_imagens/som.png") no-repeat;
-	float: center;
+	margin-top: 565px;
+	margin-bottom: 90px;
+	width: 260px;
+	height: 100px;
+	background:url("../_imagens/musica.gif") no-repeat;
+	background-size: 300px;
+	background-position: 40% 50%;
 	margin-left: -180px;
+}
+#album{
+	width: 700px; /* largura do album*/
+	margin: 0 auto; /* espaçamento externo */
+	padding: 50px; /* espaçamento interno */
+	list-style: none; /* lista sem marcações */
+}
+
+#album li{
+	float: left; /* flutua a esquerda o item da lista */ 
+	width: 200px; /* largura do item da lista */
+	height: 200px; /* altura do item da lista */
+	margin: 10px; /* espaçamento externo do item da lista */
+	border: solid 5px; /* borda do item da lista */
+	background-color: #fff; 
+	box-shadow: 1px 1px 1px rgba(0,0,0, .4);
+}
+#album li span {
+	opacity: 0;
+	color: #fff;
+	background-color: rgba(0,0,0,.3);  /* cor de fundo */
+	text-shadow: 1px 1px 1px #000; /* texto com sombra */
+	font-size: 9pt; /*tamanho da fonte */
+	line-height: 370px; /* altura da linha */
+	padding: 5px;
+}
+#album li:hover span {
+	opacity: 1;
+}
+
+#album li#fotos3{
+	background:url("../_imagens/s3.jpg");
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #fff;
+}
+#album li#fotos:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+#album li#fotos1{
+	background:url("../_imagens/s1.jpg");
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #fff;
+}
+#album li#fotos1:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+#album li#fotos2{
+	background:url("../_imagens/s2.jpg");
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #fff;
+}
+#album li#fotos2:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+#album li#fotosr{
+	background:url("../_imagens/sr.jpg");
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #fff;
+}
+#album li#fotosr:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+#album li#fotors{
+	background:url("../_imagens/rs.jpg");
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #fff;
+}
+#album li#fotors:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+#album li#fotor{
+	background:url("../_imagens/r.jpg");
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #fff;
+}
+#album li#fotor:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+#album li#fotor2{
+	background:url("../_imagens/usuario-contato.jpg");
+	background-position: 50% 50%;
+	background-size: 100px 100px;
+	background-color: #fff;
+}
+#album li#fotor2:hover{
+	background-position: 0px 0px;
+	background-size: 100px 100px;
+}
+#album li#fotologo{
+	background:url("../_imagens/logo.png");
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #fff;
+}
+#album li#fotologo:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+#album li#fotorsa1{
+	background:url("../_imagens/rsa1.jpg");
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #fff;
+}
+#album li#fotorsa1:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+
+
