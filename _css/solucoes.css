@@ -1,5 +1,5 @@
 .solucao h2 {
-    font-size:32px;
+    font-size:16pt;
     text-transform: uppercase;
     font-weight: 700;
     color: #95a5a6;
@@ -33,4 +33,21 @@ p {
     font-size: 14px;
     line-height: 1.6;
     margin: 15px 0;
+}
+.produto1 h2{
+    text-align: center;
+}
+.produto1 h3{
+    font-size: 18pt;
+    text-align: center;
+
+}
+.produto1 p{
+    text-align: center;
+}
+.front h2{
+    text-align: center;
+}
+.front h1{
+    text-align: center;
 }
