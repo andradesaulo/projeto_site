@@ -1,8 +1,8 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+    <!DOCTYPE html>
+    <html lang="pt-br">
     <head>
         <meta charset="UTF-8"/>
-        <title>ALS|SOLUÇÕES</title>
+        <title>ALS | SOLUÇÕES</title>
         <link rel="stylesheet" type="text/css" href="_css/reset.css"/>
         <link rel="stylesheet" type="text/css" href="_css/index.css" />
         <link rel="stylesheet" type="text/css" href="_css/contato.css" />
@@ -10,125 +10,121 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet"/>
     </head>
     <body>
-       
-             <header id="cabecalho"> 
-                    <hgroup> 
-                    <figure id="logo-empresa">
-                        <img src="_imagens/logo.png">
-                    </figure>
-                    </hgroup>           
-                <nav id="menu-principal">
-                    <ul type="square">
-                        <a href="index.html"><li>Home</li></a>
-                        <a href="empresa.html"><li>Empresa</li></a>
-                        <a href="solucoes.html"><li>Soluções</li></a>
-                        <a href="clientes.html"><li>Clientes</li></a>
-                        <a href="mmedia.html"><li>Multimidia</li></a>
-                        <a href="contato.html"><li>Contato</li></a>
-                    </ul>
-                </nav>
-                </header>
-                <div id="interface">
-                <section>  
-                    <form id="contato" action="mmedia.html">
-                        <fieldset id="usuario">
-                            <legend> Campo para Identificação </legend>
-                            <p>
-                                <label for="nome">
-                                Nome
-                                </label> 
-                                <input type="text" id="nome" placeholder="Digite o seu nome"/>
-                            </p>
-                            <p>
-                                <label for="email">
-                                E-mail
-                                </label>
-                                <input type="text" id="email" placeholder="Digite o seu e-mail"/>
-                            </p>
-                            <fieldset id="sexo">
-                                <legend> Sexo </legend>
-                                    <input type="radio" id="masculino" name="sexo">
-                                    Masculino
-                                    <input type="radio" id="feminino" name="sexo">
-                                    Feminino
-                                   
-                            </fieldset>
-                            <p>
-                                <label for="data">
-                                Data de Nascimento:
-                                </label>
-                                <input type="date" id="data"/>
-                            </p>
-                        </fieldset>
-                        <fieldset id="endereco">
-                            <legend> Endereço </legend> 
-                            <p>
-                                <label for="logradouro">
-                                    Logradouro:
-                                </label>
-                                <input type="text" id="logradouro" placeholder="Endereço"/>
-                            </p>
-                            <p>
-                                <label for="numero">
-                                    Número:
-                                </label>
-                                <input type="number" id="numero"/>
-                            </p>
-                            <p>
-                                <label for="estado">
-                                    Estado
-                                </label>
-                                <select id="estado"> 
-                                    <option> São Paulo </option>
-                                    <option> Santa Catarina </option>
-                                    <option> Rio de Janeiro </option>
-                                    <option> Espirito Santo </option>
-                                    <option> Distrito Federal </option>
-                                    <option> Acre </option>
-                                    <option> Outro </option>
-                                </select>
-                            </p>
-                            <p>
-                                <label for="cidade">
-                                    Cidade
-                                </label>
-                                <input type="text" id="cidade" list="lista"/>
-                                <datalist id="lista">
-                                    <option> Franca </option>
-                                    <option> Ribeirão Preto </option>
-                                    <option> Blumenau </option>
-                                    <option> Campinas </option>
-                                    <option> São Paulo </option>
-                                </datalist>
-                            </p>
-                        </fieldset>
-                        <fieldset id="mensagem">
-                            <legend> Mensagem </legend>
-                            <p>
-                                <label for="rapido">
-                                    Necessidade de atendimento :<br>
-                                </label>
-                                Para essa semana <input type="range" min="0" id="rapido" max="10"/>Sem precisão para agora 
-                            </p>
-                            <p>
-                                <label for="mensagem"> Mensagem </label>
-                            </p>
-                            <p>
-                                <textarea id="mensagem" rows="10" cols="30" placeholder="Deixe sua mensagem aqui..."></textarea>
-                            </p>
-                        </fieldset>
-                        <input type="image" id="botao" src="_imagens/botao_enviar.2.png"/>
-                </form>
+        <header id="cabecalho"> 
+            <hgroup> 
+                <figure id="logo-empresa">
+                    <img src="_imagens/logo.png">
+                </figure>
+            </hgroup>           
+            <nav id="menu-principal">
+                <ul type="square">
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="empresa.html"><li>Empresa</li></a>
+                    <a href="solucoes.html"><li>Soluções</li></a>
+                    <a href="clientes.html"><li>Clientes</li></a>
+                    <a href="mmedia.html"><li>Multimidia</li></a>
+                    <a href="contato.html"><li>Contato</li></a>
+                </ul>
+            </nav>
+        </header>
+    <div id="interface">
+        <section>  
+            <h1 id="titulo">Entre em contato</h1>
+            <form id="contato" action="mmedia.html">
+                <fieldset id="usuario">
+                    <legend> Campo para Identificação </legend>
+                    <p>
+                        <label for="nome">
+                            Nome
+                        </label> 
+                        <input type="text" id="nome" placeholder="Digite o seu nome"/>
+                    </p>
+                    <p>
+                        <label for="email">E-mail</label>
+                        <input type="text" id="email" placeholder="Digite o seu e-mail"/>
+                    </p>
+                    <p>
+                        <label>Sexo:</label>
+                        <input type="radio" id="masculino" name="sexo">
+                        Masculino
+                        <input type="radio" id="feminino" name="sexo">
+                        Feminino
+                    </p>
+                    <p>
+                        <label for="data">Data de Nascimento:</label>
+                        <input type="date" id="data"/>
+                    </p>
+                </fieldset>
+                <fieldset id="endereco">
+                    <legend> Endereço </legend> 
+                    <p>
+                        <label for="logradouro">
+                            Logradouro:
+                        </label>
+                        <input type="text" id="logradouro" placeholder="Endereço"/>
+                    </p>
+                    <p>
+                        <label for="numero">
+                            Número:
+                        </label>
+                        <input type="number" id="numero"/>
+                    </p>
+                    <p>
+                        <label for="estado">
+                            Estado
+                        </label>
+                        <select id="estado"> 
+                            <option> São Paulo </option>
+                            <option> Santa Catarina </option>
+                            <option> Rio de Janeiro </option>
+                            <option> Espirito Santo </option>
+                            <option> Distrito Federal </option>
+                            <option> Acre </option>
+                            <option> Outro </option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="cidade">
+                            Cidade
+                        </label>
+                        <input type="text" id="cidade" list="lista"/>
+                        <datalist id="lista">
+                            <option> Franca </option>
+                            <option> Ribeirão Preto </option>
+                            <option> Blumenau </option>
+                            <option> Campinas </option>
+                            <option> São Paulo </option>
+                        </datalist>
+                    </p>
+                </fieldset>
+                <fieldset id="mensagem">
+                    <legend> Mensagem </legend>
+                    <p>
+                        <label for="rapido">
+                            Necessidade de atendimento :<br>
+                        </label>
+                        Para essa semana <input type="range" min="0" id="rapido" max="10"/>Sem precisão para agora 
+                    </p>
+                    <p>
+                        <label for="mensagem"> Mensagem </label>
+                    </p>
+                    <p>
+                        <textarea id="mensagem" rows="10" cols="30" placeholder="Deixe sua mensagem aqui..."></textarea>
+                    </p>
+                    <input type="image" id="botao" src="_imagens/botao_enviar.2.png"/>
+
+                </fieldset>
+            </form>
         </section>
-            </div>
-            <footer id="rodape">
-                 <P>Contato<br/>
-                    Email: empresa@empresa.com.br<br/>
-                    Telefone: (16) 4325-8987<br/>
-                </P>
-                <p id="copyright">Copyright &copy; 2018 - Empresa
-                </p>     
-            </footer>
-        </div>
+    </div>
+    <footer id="rodape">
+        <p>Contato<br/>
+            Email: contato@als.com.br<br/>
+            Telefone: (16) 4325-8987<br/>
+        </p>
+        <p id="copyright">Copyright &copy; 2018 - ALS | Soluções em software
+        </p>  
+    </footer>
+    </div>
     </body>
 </html>

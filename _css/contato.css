@@ -5,7 +5,6 @@
 input:hover {
 	background-color: #e2e2ebff;
 }
-
 legend{
 	color: #dc051e ; /*cor da legenda*/
 	font-weight: normal;
@@ -15,15 +14,9 @@ legend{
 	margin-bottom: 30px;
 }
 fieldset{
+	padding-bottom: 30px;
 	border-bottom: 1px solid red;
-
-
-
 }
-fieldset#sexo {
-
-}
-
 fieldset#usuario {
 	background:url("../_imagens/usuario-contato.jpg") no-repeat ;
 	background-size: 100px;
@@ -38,7 +31,6 @@ fieldset#mensagem {
 	background:url("../_imagens/mensagem2.jpg") no-repeat ;
 	background-position: 35% 70%;
 	background-size: 130px;
-	
 }
 #botao{
 	margin-left: 140px;
@@ -48,4 +40,12 @@ fieldset#mensagem {
 }
 p {
 	text-indent: 0px;
+}
+
+#titulo {
+	font-family: "Roboto Slab", serif;
+	font-size: 45pt;
+	margin: 30px 0px 30px 0px;
+	color: #e14559;
+	text-align: left;
 }

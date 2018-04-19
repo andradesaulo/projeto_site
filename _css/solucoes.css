@@ -22,14 +22,14 @@
     margin-left: auto;
 }
 
-h1, h2, h3 {
+#interface h1, h2, h3 {
     margin-bottom: 20px;
     font-weight: 300;
 }
 .content-1-3 p {
     padding: 0 20px;
 }
-p {
+#interface p {
     font-size: 14px;
     line-height: 1.6;
     margin: 15px 0;
