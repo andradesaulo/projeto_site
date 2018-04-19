@@ -1,0 +1,42 @@
+#musica {
+	float:left;
+	display: block;
+	margin-bottom: 5px;
+	margin-top: 90px;
+	width: 400px;
+	height: 500px;
+	background:url("../_imagens/musica.gif") no-repeat;
+	background-size: 600px;
+	background-position: 40% 90%;
+	margin-left: 0px;
+ }
+#frame-spec{
+	width:380px;
+	height: 280px; 
+	border:none; 
+	
+}
+#frame{
+    position: absolute;
+    width: 500px;
+    height: 385px;
+    top: 40%;
+    left: 20%;
+    margin-top: -125px;
+    margin-left: 340px;
+} 
+#titulo h1{
+	font-size: 50pt;
+	font-family: "Roboyo Slab", serif;
+	color: #e14559;
+	margin: 130px 0px 30px 0px;
+	text-align: left;
+}
+#titulo p{
+	font-size: 20pt;
+	font-family: "Roboto Slab", serif;
+	color:#e14559;
+	margin: 13px 0px 30px 0px;
+	text-align: left;
+}
+

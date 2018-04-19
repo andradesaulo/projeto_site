@@ -1,7 +1,39 @@
+#pagina h1{
+	font-size: ;
+	font-family: "Roboyo Slab", serif;
+	color: #e14559;
+	margin: 30px 0px 30px 0px;
+	text-align: left;
+}
+#pagina h2{
+	font-size: ;
+	font-family: "Roboyo Slab", serif;
+	color: #e14559;
+	margin: 30px 0px 30px 0px;
+	text-align: left;
+}
+#pagina p{
+	font-size: ;
+	font-family: "Roboyo Slab", serif;
+	color: #e14559;
+	margin: 30px 0px 30px 0px;
+	text-align: left;
+}
+#tempresa h1{
+	font-size: ;
+	font-family: "Roboyo Slab", serif;
+	color: #e14559;
+	margin: 30px 0px 30px 0px;
+	text-align: left;
+}
 #midia{
+	position:absolute;
 	width: 980px;
 	height: 630px;
-	margin: auto;
+	top: 40%;
+    left: 20%;
+	margin-top: -125px;
+	margin-left: 340px;
 	margin-bottom: 100px;
 }
 #filme{
@@ -15,18 +47,6 @@
 	background-position: 50%/*MEXE OS LADOS*/ 100%; /*MEXE CIMA E BAIXO*/
 	width:500px;
 	height:515px;
-}
-#musica {
-	float:left;
-	display: block;
-	margin-top: 1500px;
-	margin-bottom: 5px;
-	width: 260px;
-	height: 100px;
-	background:url("../_imagens/musica.gif") no-repeat;
-	background-size: 300px;
-	background-position: 40% 50%;
-	margin-left: -180px;
 }
 #album{
 	width: 700px; /* largura do album*/
