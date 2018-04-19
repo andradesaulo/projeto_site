@@ -27,16 +27,16 @@
 } 
 #titulo h1{
 	font-size: 50pt;
-	font-family: "Roboyo Slab", serif;
+	font-family: "Roboto Slab", serif;
 	color: #e14559;
-	margin: 130px 0px 30px 0px;
+	margin: 130px 0px 30px 50px;
 	text-align: left;
 }
 #titulo p{
 	font-size: 20pt;
 	font-family: "Roboto Slab", serif;
 	color:#e14559;
-	margin: 13px 0px 30px 0px;
+	margin: 13px 0px 30px 50px;
 	text-align: left;
 }
 

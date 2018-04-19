@@ -1,66 +1,49 @@
-#pagina h1{
-	font-size: ;
-	font-family: "Roboyo Slab", serif;
-	color: #e14559;
-	margin: 30px 0px 30px 0px;
-	text-align: left;
+#interface{
+	width: 80%;
+	margin:auto;
 }
-#pagina h2{
-	font-size: ;
-	font-family: "Roboyo Slab", serif;
-	color: #e14559;
-	margin: 30px 0px 30px 0px;
-	text-align: left;
-}
-#pagina p{
-	font-size: ;
-	font-family: "Roboyo Slab", serif;
-	color: #e14559;
-	margin: 30px 0px 30px 0px;
-	text-align: left;
-}
+
 #tempresa h1{
-	font-size: ;
-	font-family: "Roboyo Slab", serif;
+	font-size: 45pt;
+	font-family: "Roboto Slab", serif;
 	color: #e14559;
-	margin: 30px 0px 30px 0px;
+	margin: 30px 0px 0px 50px;
 	text-align: left;
 }
 #midia{
-	position:absolute;
-	width: 980px;
-	height: 630px;
-	top: 40%;
-    left: 20%;
-	margin-top: -125px;
-	margin-left: 340px;
-	margin-bottom: 100px;
+	float: right;
+	position:relative;
+	width: 800px;
+	height: 400px;
 }
 #filme{
-	float:right;
+	float:left;
 	display: block;
 	position:relative;
 	margin-top: 100px;
 	margin-bottom: 40px;
-	margin-right: -30px;
+	margin-left: -380px;
 	background:url("../_imagens/televisao2.png") no-repeat;
 	background-position: 50%/*MEXE OS LADOS*/ 100%; /*MEXE CIMA E BAIXO*/
 	width:500px;
 	height:515px;
 }
 #album{
+	float:right;
+	color:#e14559;
+	margin-bottom: 0px;
+	margin-top: -400px;
+	position:relative;
 	width: 700px; /* largura do album*/
-	margin: 0 auto; /* espaçamento externo */
 	padding: 50px; /* espaçamento interno */
 	list-style: none; /* lista sem marcações */
 }
-
 #album li{
 	float: left; /* flutua a esquerda o item da lista */ 
 	width: 200px; /* largura do item da lista */
 	height: 200px; /* altura do item da lista */
 	margin: 0px; /* espaçamento externo do item da lista */
-	border: solid 5px; /* borda do item da lista */
+	border: solid 1px; /* borda do item da lista */
 	background-color: #fff; 
 	box-shadow: 1px 1px 1px rgba(0,0,0, .4);
 }
@@ -120,13 +103,13 @@
 	background-size: 200px 200px;
 }
 
-#album li#fotors{
-	background:url("../_imagens/rs.jpg");
+#album li#fotologo{
+	background:url("../_imagens/logo.png");
 	background-position: 50% 50%;
 	background-size: 400px 400px;
 	background-color: #fff;
 }
-#album li#fotors:hover{
+#album li#fotologo:hover{
 	background-position: 0px 0px;
 	background-size: 200px 200px;
 }
@@ -151,13 +134,13 @@
 	background-position: 0px 0px;
 	background-size: 200px 200px;
 }
-#album li#fotologo{
-	background:url("../_imagens/logo.png");
+#album li#fotors{
+	background:url("../_imagens/rs.jpg");
 	background-position: 50% 50%;
 	background-size: 400px 400px;
 	background-color: #fff;
 }
-#album li#fotologo:hover{
+#album li#fotors:hover{
 	background-position: 0px 0px;
 	background-size: 200px 200px;
 }
@@ -172,6 +155,5 @@
 	background-position: 0px 0px;
 	background-size: 200px 200px;
 }
-
 
 
