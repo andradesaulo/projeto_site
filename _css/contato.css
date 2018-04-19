@@ -6,7 +6,7 @@ input:hover {
 	background-color: #e2e2ebff;
 }
 legend{
-	color: #dc051e ; /*cor da legenda*/
+	color: #e14559; /*cor da legenda*/
 	font-weight: normal;
 	font-size: 20pt;
 	font-family: Roboto Slab, serif;
@@ -15,7 +15,7 @@ legend{
 }
 fieldset{
 	padding-bottom: 30px;
-	border-bottom: 1px solid red;
+	border-bottom: 1px solid #e14559;
 }
 fieldset#usuario {
 	background:url("../_imagens/usuario-contato.jpg") no-repeat ;
