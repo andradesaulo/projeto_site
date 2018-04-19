@@ -12,15 +12,15 @@
 	margin-bottom: 40px;
 	margin-right: -30px;
 	background:url("../_imagens/televisao2.png") no-repeat;
-	background-position: 50%/*MEXE OS LADOS*/ 120%; /*MEXE CIMA E BAIXO*/
-	width:540px;
-	height:500px;
+	background-position: 50%/*MEXE OS LADOS*/ 100%; /*MEXE CIMA E BAIXO*/
+	width:500px;
+	height:515px;
 }
 #musica {
 	float:left;
 	display: block;
-	margin-top: 565px;
-	margin-bottom: 90px;
+	margin-top: 1500px;
+	margin-bottom: 5px;
 	width: 260px;
 	height: 100px;
 	background:url("../_imagens/musica.gif") no-repeat;
@@ -39,7 +39,7 @@
 	float: left; /* flutua a esquerda o item da lista */ 
 	width: 200px; /* largura do item da lista */
 	height: 200px; /* altura do item da lista */
-	margin: 10px; /* espaçamento externo do item da lista */
+	margin: 0px; /* espaçamento externo do item da lista */
 	border: solid 5px; /* borda do item da lista */
 	background-color: #fff; 
 	box-shadow: 1px 1px 1px rgba(0,0,0, .4);
@@ -63,7 +63,7 @@
 	background-size: 400px 400px;
 	background-color: #fff;
 }
-#album li#fotos:hover{
+#album li#fotos3:hover{
 	background-position: 0px 0px;
 	background-size: 200px 200px;
 }
@@ -111,25 +111,25 @@
 	background-size: 200px 200px;
 }
 
-#album li#fotor{
-	background:url("../_imagens/r.jpg");
+#album li#fotor1{
+	background:url("../_imagens/ramon1.jpeg");
 	background-position: 50% 50%;
 	background-size: 400px 400px;
 	background-color: #fff;
 }
-#album li#fotor:hover{
+#album li#fotor1:hover{
 	background-position: 0px 0px;
 	background-size: 200px 200px;
 }
 #album li#fotor2{
-	background:url("../_imagens/usuario-contato.jpg");
+	background:url("../_imagens/ramon2.jpeg") no-repeat;
 	background-position: 50% 50%;
-	background-size: 100px 100px;
+	background-size: 400px 400px;
 	background-color: #fff;
 }
 #album li#fotor2:hover{
 	background-position: 0px 0px;
-	background-size: 100px 100px;
+	background-size: 200px 200px;
 }
 #album li#fotologo{
 	background:url("../_imagens/logo.png");
