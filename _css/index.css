@@ -89,7 +89,7 @@ body {
 #tabela caption {
 	font-family: "Roboto Slab", serif;
 	font-size: 45pt;
-	margin: -30px 0px 30px 0px;
+	margin: 10px 0px 30px 0px;
 	color: #e14559;
 	text-align: left;
 }
@@ -181,4 +181,33 @@ footer p {
 }
 #clientes li #cascata {
 	width: 10%;
+}
+#efeitop{
+	font-size: 25pt;
+	width: 600px;
+	margin: auto;
+	font-weight: bolder;
+
+}
+#efeito{
+	position: relative;
+}
+#efeito img{
+	width: 100%;
+	height: 80%;
+
+}
+#efeito:hover figcaption{
+	opacity: 1;
+}
+#efeito figcaption{
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: opacity 1s;
+	color: firebrick;
 }
