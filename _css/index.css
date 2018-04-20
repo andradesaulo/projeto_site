@@ -39,7 +39,6 @@ body {
 	display: inline-block;
 	margin: 20px;
 	padding: 0px;
-	background-color: #24252d;
 }
 
 #menu-principal li:hover {
@@ -62,24 +61,8 @@ body {
 	margin: auto;
 }
 
-#foto-empresa {
-    width: 100%;
-	clear: both;
-}
 
-#foto-empresa img{
-	width: 100%;
 
-}
-
-#foto-empresa figcaption{
-	position: relative;
-	top: -300px;
-	font-size: 45pt;
-	font-weight: bold;
-	color: #e14559;
-	text-shadow: 4px 4px 3px #210101;
-}
 
 #tabela{
 	width: 100%;
@@ -139,10 +122,9 @@ footer p {
 	color: #e14559;
 }
 #logo-empresa img{
-	position: relative; /* a partir de onde a imagem está */
-	top: -65px; /* sobe a image */
-	/* right: 150px; /* desloca da esquerda para direita */
-	height: 130px;
+    position: relative;
+    top: -27px;
+    height: 65px;
 }
 
 #empresa h2{
@@ -182,19 +164,23 @@ footer p {
 #clientes li #cascata {
 	width: 10%;
 }
-#efeitop{
-	font-size: 25pt;
-	width: 600px;
+#efeito p{
+	font-size: 24pt;
 	margin: auto;
-	font-weight: bolder;
+	width: 700px;
+	font-weight: 300;
+	line-height: 1.12;
+}
+#efeito h1{
+	font-size: 40pt;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #e14559;
+	font-family: "Roboto Slab", serif;
+}
 
-}
-#efeito{
-	position: relative;
-}
 #efeito img{
 	width: 100%;
-	height: 80%;
 
 }
 #efeito:hover figcaption{
@@ -203,11 +189,15 @@ footer p {
 #efeito figcaption{
 	opacity: 0;
 	position: absolute;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	padding: 10px;
-	box-sizing: border-box;
-	transition: opacity 1s;
-	color: firebrick;
+	margin-left: 50px;
+	top: 320px;
+	transition: opacity .5s;
+	color:#e14559;
+	background-color: rgba(36, 37, 45, .95);
+	padding: 20px;
+	padding-bottom: 20px;
+}
+
+em {
+	font-style:italic;
 }

@@ -19,7 +19,7 @@ fieldset{
 }
 fieldset#usuario {
 	background:url("../_imagens/usuario-contato.jpg") no-repeat ;
-	background-size: 100px;
+	background-size: 150px;
 	background-position: 35% 5%;
 }
 fieldset#endereco {
@@ -35,7 +35,6 @@ fieldset#mensagem {
 #botao{
 	margin-left: 140px;
 	width: 90px;
-    height: 40px;
     margin: 0px;
 }
 p {
@@ -48,4 +47,8 @@ p {
 	margin: 30px 0px 30px 0px;
 	color: #e14559;
 	text-align: left;
+}
+
+#mensagem {
+	border-bottom: 0px solid red;
 }

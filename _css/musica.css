@@ -1,14 +1,14 @@
 #musica {
-	float:left;
+	float:right;
 	display: block;
 	margin-bottom: 5px;
 	margin-top: 90px;
-	width: 400px;
+	width: 600px;
 	height: 500px;
 	background:url("../_imagens/musica.gif") no-repeat;
 	background-size: 600px;
 	background-position: 40% 90%;
-	margin-left: 0px;
+	margin-right: 120px;
  }
 #frame-spec{
 	width:380px;
